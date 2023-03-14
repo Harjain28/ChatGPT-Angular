@@ -5,7 +5,7 @@ import { DemoComponent } from './demo/demo.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 
-const routes: Routes = [ { path: '', pathMatch: 'full', redirectTo: 'home' },
+const routes: Routes = [ { path: '', pathMatch: 'full', redirectTo: 'demo' },
 { path: 'home', component: HomeComponent },
 { path: 'demo', component: DemoComponent  },
 { path: 'demo/chat-with-support-bot', component: CustomerSupportComponent  }]
