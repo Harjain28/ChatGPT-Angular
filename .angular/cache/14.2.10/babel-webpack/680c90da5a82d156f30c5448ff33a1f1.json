@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  env_name: 'dev',\n  production: false,\n  apiKey: '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'\n};","map":null,"metadata":{},"sourceType":"module"}
